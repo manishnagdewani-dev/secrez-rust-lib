@@ -21,6 +21,7 @@ before_install:
   - node -v
   - npm -v
   - npm install
+  - yarn install
 script:
   - npm test
   # Publish when using '[publish binary]' keywords
